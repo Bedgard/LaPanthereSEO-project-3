@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="fr">
+<!-- La langue n'était pas renseigné. le site étant français la langue française
+sera par défaut-->
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="keywords"
+		content=" Lyon, la Panthère, agence web design, création site web, stratégie marketing, webmarketing, attractivité, SEO, visibilité sur le net, entreprise">
+	<!--Il y avait une répétition des mêmes mots clés. Pour améliorer le scrawling par les moteurs de recherche, il faut faire une recherche de mots clés
+		en fonction des objectifs. Cela permet de vous donner une image d'expert ou une relation de confiance. 
+		Mot clé local est ici par exemple est indispensable puisque l'agence possède un lieu physique. -->
+
+	<meta name="description"
+		content="La Panthère, agence web design basée à Lyon, vous accompagne les entreprises dans la stratégie de développement de leur attractivité et visibilité sur le web.">
+	<title>Agence web design - La Panthère</title>
+	<!--   Title & Description : ces balises indiquent aux moteurs de recherche de quoi traite la page. 
+		Elles sont aussi affichées dans les résultats. Elles doivent donc non seulement contenir le mot-clé visé, mais aussi donner envie au visiteur de cliquer pour lire votre page.  -->
+
+	<meta name="robots" content="index, follow" />
+	<!-- Cela indique aux moteurs de recherche qu'ils doivent indexer la page (index) et suivre les liens présents sur celle-ci (follow). -->
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+
+
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+
+
+
+	<!-- Analytics -->
+
+	<!-- Analytics END -->
+
+</head>
+
+<body>
+	<!-- Principal conteneur -->
+	<div class="page-container">
+
+		<!-- bloc-0 -->
+		<div class="bloc bgc-white l-bloc " id="bloc-0">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
+								alt="atlanta web design logo" height="80" /></a>
+						<!-- modification de la hauteur à 80 -->
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
+							data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+								class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav ">
+							<li>
+								<a class href="index.html">Accueil</a>
+							</li>
+
+							<li>
+								<a href="page2.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- bloc-0 END -->
+
+		<!-- bloc-6 -->
+
+
+		<header class="header-section header visible">
+			<!-- changement du nom de classe -->
+			<h1>Contactez-Nous</h1>
+			<h2>Nous sommes ravis que vous souhaitiez collaborer avec notre agence !</h2>
+
+		</header>
+
+
+
+
+
+		<!-- bloc-6 END -->
+
+		<!-- bloc-7 -->
+		<div class="bloc bgc-white l-bloc" id="bloc-7">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-6">
+						<img class="img_page2" src="logo_form.png" alt="Image du logo de l'entreprise">
+
+
+
+						<!-- Le formulaire n'était pas renseigné. Il fallait y ajouter l'attribut method et action. 
+							J'ai aussi ajouter des arial-label pour l'accessibilité
+							pour améliorer l'accessibilité -->
+						<form method="post" action="form_1.php">
+
+
+							<label aria-label="entrez votre nom">
+								Nom
+							</label>
+							<div class="form-group">
+								<input id="name" class="form-control" required aria-label="Entrez votre nom" />
+							</div>
+							<label class="prenom" aria-label="Entrez votre prénom">
+								Prénom
+							</label>
+							<div class="form-group">
+								<input id="name_1" class="form-control" required aria-label="Entrez votre prénom" />
+							</div>
+							<label class="mail" aria-label=" Entrez votre mail">
+								Mail
+							</label>
+							<div class="form-group">
+								<input id="email" class="form-control" type="email" required
+									aria-label=" Entrez-votre Email" />
+							</div>
+							<label class="question" aria-label="Comment vous nous avez connu ?">
+								Comment vous nous avez connu ?
+							</label>
+							<div class="form-group">
+								<input class="form-control" type="email" required id="input_504"
+									aria-label="Comment vous nous avez connu?" />
+							</div>
+
+							<label class="briefing" aria-label="Expliquez-nous votre projet">
+								Brief de votre projet <br> (Ajoutez autant de détails <br> que nécessaire)
+							</label>
+							<div class="form-group">
+								<textarea id="message" class="form-control" rows="4" cols="50" required
+									aria-label="expliquez-nous votre projet"></textarea>
+							</div>
+							<button class="button_form" type="submit" aria-label="cliquez ici pour envoyer">
+								Envoyer
+							</button>
+							<!-- button changement class -->
+						</form>
+					</div>
+					<div class="col-sm-6">
+						<p>
+							contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du
+							lundi
+							au vendredi<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- bloc-7 END -->
+
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+				class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
+
+
+		<!-- Footer - bloc-8 -->
+		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center white">
+							Agence La Panthère - Agence web basée à Lyon<br>
+						</p>
+						<div class="row row-no-gutters social">
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span
+											class="fa fa-instagram icon-md"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer - bloc-8 END -->
+
+	</div>
+	<!-- Principal conteneur END -->
+
+
+</body>
+
+</html>
