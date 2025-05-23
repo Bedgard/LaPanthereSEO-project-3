@@ -7,8 +7,8 @@
 </p>
 
 
-[View the live site](https://bedgard.github.io/LaPanthereSEO-project-3/)
----
+## Live Demo  
+→ [Open the La Panthère Live Demo](https://bedgard.github.io/LaPanthereSEO-project-3/)
 
 ## Project Introduction
 
