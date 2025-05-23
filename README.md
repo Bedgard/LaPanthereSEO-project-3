@@ -6,6 +6,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo" height="60" />
 </p>
 
+ [Voir le site en ligne](https://bedgard.github.io/LaPanthereSEO-project-3/)
 ---
 
 ## Project Introduction
