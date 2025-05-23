@@ -8,7 +8,8 @@
 
 
 ## Live Demo  
-** [Open the La Panthère Live Demo](https://bedgard.github.io/LaPanthereSEO-project-3/)
+
+**[Open the La Panthère Live Demo](https://bedgard.github.io/LaPanthereSEO-project-3/)**
 
 ## Project Introduction
 
